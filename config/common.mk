@@ -165,6 +165,9 @@ endif
 # Include ZenX Switch Styles
 include vendor/zenx/themes/Switch/switch.mk
 
+# Include ZenX Tiles Styles
+include vendor/zenx/themes/Tiles/tiles.mk
+
 # Accents
 PRODUCT_PACKAGES += \
     AccentColorYellowOverlay \
