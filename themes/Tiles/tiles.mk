@@ -9,4 +9,5 @@ PRODUCT_PACKAGES += \
     QStileBadge \
     QStileBadgetwo \
     QStileDiamond \
-    QStileSquircleTrim
+    QStileSquircleTrim \
+    QSTileCookie
