@@ -2,9 +2,11 @@
 PRODUCT_PACKAGES += \
     QStileCircleTrim \
     QStileDualToneCircle \
-    QStileSquircleTrim \
-    QStileSquare \
     QStileStar \
     QStileTearDrop \
+	QStileSquare \
     QStileGear \
-    QStileSun
+    QStileBadge \
+    QStileBadgetwo \
+    QStileDiamond \
+    QStileSquircleTrim
