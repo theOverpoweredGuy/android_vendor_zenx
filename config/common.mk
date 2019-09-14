@@ -170,6 +170,17 @@ PRODUCT_PACKAGES += \
 
 # Extra tools in ZenX
 PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
+# LatinIME lib
+ifneq ($(WITH_GAPPS),true)
+PRODUCT_PACKAGES += \
+    libjni_latinimegoogle
+endif
+
+# Extra tools in Zenx
+PRODUCT_PACKAGES += \
     7z \
     awk \
     bash \
