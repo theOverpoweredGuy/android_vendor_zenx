@@ -98,6 +98,9 @@ include vendor/zenx/config/aosp_audio.mk
 # Include ZenX audio files
 include vendor/zenx/config/zenx_audio.mk
 
+# Include Google fonts
+include vendor/zenx/config/fonts.mk
+
 # TWRP
 ifeq ($(WITH_TWRP),true)
 include vendor/zenx/config/twrp.mk
