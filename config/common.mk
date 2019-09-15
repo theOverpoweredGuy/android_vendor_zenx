@@ -35,63 +35,63 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/zenx/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/zenx/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/zenx/prebuilt/common/bin/50-zenx.sh:system/addon.d/50-zenx.sh \
-    vendor/zenx/prebuilt/common/bin/blacklist:system/addon.d/blacklist
+    vendor/zenx/prebuilt/common/bin/50-zenx.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-zenx.sh \
+    vendor/zenx/prebuilt/common/bin/blacklist:$(TARGET_COPY_OUT_SYSTEM)/addon.d/blacklist
 
 ifeq ($(AB_OTA_UPDATER),true)
 PRODUCT_COPY_FILES += \
-    vendor/zenx/prebuilt/common/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \
-    vendor/zenx/prebuilt/common/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
-    vendor/zenx/prebuilt/common/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+    vendor/zenx/prebuilt/common/bin/backuptool_ab.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.sh \
+    vendor/zenx/prebuilt/common/bin/backuptool_ab.functions:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.functions \
+    vendor/zenx/prebuilt/common/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
 
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
-    vendor/zenx/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
+    vendor/zenx/config/permissions/backup.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/backup.xml
 
 # ZenX-specific broadcast actions whitelist
 PRODUCT_COPY_FILES += \
-    vendor/zenx/config/permissions/zenx-sysconfig.xml:system/etc/sysconfig/zenx-sysconfig.xml
+    vendor/zenx/config/permissions/zenx-sysconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/zenx-sysconfig.xml
 
 # init.d support
 PRODUCT_COPY_FILES += \
-    vendor/zenx/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/zenx/prebuilt/common/bin/sysinit:system/bin/sysinit
+    vendor/zenx/prebuilt/common/etc/init.d/00banner:$(TARGET_COPY_OUT_SYSTEM)/etc/init.d/00banner \
+    vendor/zenx/prebuilt/common/bin/sysinit:$(TARGET_COPY_OUT_SYSTEM)/bin/sysinit
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
 # userinit support
 PRODUCT_COPY_FILES += \
-    vendor/zenx/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
+    vendor/zenx/prebuilt/common/etc/init.d/90userinit:$(TARGET_COPY_OUT_SYSTEM)/etc/init.d/90userinit
 endif
 
 # Copy all ZenX-specific init rc files
 $(foreach f,$(wildcard vendor/zenx/prebuilt/common/etc/init/*.rc),\
-	$(eval PRODUCT_COPY_FILES += $(f):system/etc/init/$(notdir $f)))
+	$(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_SYSTEM)/etc/init/$(notdir $f)))
 
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
-    vendor/zenx/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
+    vendor/zenx/prebuilt/common/lib/content-types.properties:$(TARGET_COPY_OUT_SYSTEM)/lib/content-types.properties
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+    frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.sip.voip.xml
 
 # Enable wireless Xbox 360 controller support
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
+    frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/Vendor_045e_Product_0719.kl
 
 # This is ZenX!
 PRODUCT_COPY_FILES += \
-    vendor/zenx/config/permissions/privapp-permissions-zenx-system.xml:system/etc/permissions/privapp-permissions-zenx.xml \
+    vendor/zenx/config/permissions/privapp-permissions-zenx-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-zenx.xml \
     vendor/zenx/config/permissions/privapp-permissions-zenx-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-zenx.xml \
 
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
-    vendor/zenx/config/permissions/zenx-hiddenapi-package-whitelist.xml:system/etc/permissions/zenx-hiddenapi-package-whitelist.xml
+    vendor/zenx/config/permissions/zenx-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/zenx-hiddenapi-package-whitelist.xml
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
-    vendor/zenx/config/permissions/zenx-power-whitelist.xml:system/etc/sysconfig/zenx-power-whitelist.xml
+    vendor/zenx/config/permissions/zenx-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/zenx-power-whitelist.xml
 
 # Include AOSP audio files
 include vendor/zenx/config/aosp_audio.mk
