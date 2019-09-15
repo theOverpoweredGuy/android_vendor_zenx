@@ -1,3 +1,9 @@
+# Build fingerprint
+ifneq ($(BUILD_FINGERPRINT),)
+ADDITIONAL_BUILD_PROPERTIES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+endif
+
 # ZenX-OS System Version
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.zenx.build.date=$(ZENX_BUILD_DATE) \
