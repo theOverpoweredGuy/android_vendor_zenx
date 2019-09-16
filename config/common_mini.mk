@@ -1,4 +1,4 @@
-# Inherit mini common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit mini common ZenX stuff
+$(call inherit-product, vendor/zenx/config/common.mk)
 
 PRODUCT_SIZE := mini

@@ -1,2 +1,2 @@
-# Include LineageOS versions
-include $(TOPDIR)vendor/lineage/build/core/main_version.mk
+# Include ZenX-OS versions
+include $(TOPDIR)vendor/zenx/build/core/main_version.mk

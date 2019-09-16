@@ -1,5 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
-#           (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BUILD_RRO_SYSTEM_PACKAGE := $(TOPDIR)vendor/zenx/build/core/system_rro.mk
+$(call inherit-product, build/target/product/aosp_arm64.mk)
 
-# Rules for QCOM targets
-include $(TOPDIR)vendor/zenx/build/core/qcom_target.mk
+include vendor/zenx/build/target/product/zenx_generic_target.mk
+
+PRODUCT_NAME := zenx_arm64
