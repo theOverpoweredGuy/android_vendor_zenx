@@ -122,6 +122,10 @@ PRODUCT_PACKAGES += \
     Terminal \
     ThemePicker
 
+# ZenX packages
+PRODUCT_PACKAGES += \
+    Jelly
+
 # Extra tools in ZenX
 PRODUCT_PACKAGES += \
     7z \
