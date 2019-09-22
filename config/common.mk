@@ -200,6 +200,9 @@ endif
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/zenx/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/zenx/overlay/common
 
+# Enable ccache
+USE_CCACHE := true
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/zenx/config/partner_gms.mk
 -include vendor/zenx/config/version.mk
