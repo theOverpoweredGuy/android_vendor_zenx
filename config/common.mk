@@ -120,7 +120,9 @@ PRODUCT_PACKAGES += \
 
 # ZenX packages
 PRODUCT_PACKAGES += \
-    Jelly
+    Jelly \
+    NexusLauncherRelease \
+    SettingsIntelligenceGooglePrebuilt
 
 # Extra tools in ZenX
 PRODUCT_PACKAGES += \
