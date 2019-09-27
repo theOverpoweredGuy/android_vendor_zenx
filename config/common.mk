@@ -124,6 +124,7 @@ PRODUCT_PACKAGES += \
 # ZenX packages
 PRODUCT_PACKAGES += \
     Browser \
+    GalleryGoPrebuilt \
     NexusLauncherRelease \
     SettingsIntelligenceGooglePrebuilt
 
