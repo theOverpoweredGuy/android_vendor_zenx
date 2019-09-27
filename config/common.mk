@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     SettingsIntelligenceGooglePrebuilt
 
+# Overlays
+PRODUCT_PACKAGES += \
+    NexusLauncherReleaseOverlay
+
 # Extra tools in ZenX
 PRODUCT_PACKAGES += \
     7z \
