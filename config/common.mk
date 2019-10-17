@@ -229,6 +229,9 @@ endif
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/zenx/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/zenx/overlay/common
 
+# Bootanimation
+include vendor/zenx/config/bootanimation.mk
+
 # Enable ccache
 USE_CCACHE := true
 
