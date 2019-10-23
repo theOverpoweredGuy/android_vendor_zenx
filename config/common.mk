@@ -99,6 +99,11 @@ PRODUCT_COPY_FILES += \
 # Include Google fonts
 include vendor/zenx/config/fonts.mk
 
+# Markup libs
+PRODUCT_COPY_FILES += \
+    vendor/havoc/prebuilt/common/lib/libsketchology_native.so:system/product/lib/libsketchology_native.so \
+    vendor/havoc/prebuilt/common/lib64/libsketchology_native.so:system/product/lib64/libsketchology_native.so
+
 # TWRP
 ifeq ($(WITH_TWRP),true)
 include vendor/zenx/config/twrp.mk
@@ -138,6 +143,11 @@ PRODUCT_PACKAGES += \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SoundPickerPrebuilt
+
+# Google
+PRODUCT_PACKAGES += \
+    MarkupGoogle \
+    SoundPickerPrebuilt \
 
 # Overlays
 PRODUCT_PACKAGES += \
