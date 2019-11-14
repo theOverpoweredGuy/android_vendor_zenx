@@ -53,7 +53,7 @@ endif
 
 # system mount
 PRODUCT_COPY_FILES += \
-    vendor/havoc/prebuilt/common/bin/system-mount.sh:install/bin/system-mount.sh
+    vendor/zenx/prebuilt/common/bin/system-mount.sh:install/bin/system-mount.sh
 
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
 
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
-    vendor/havoc/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.nfc.beam.xml
+    vendor/zenx/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.nfc.beam.xml
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -101,8 +101,8 @@ include vendor/zenx/config/fonts.mk
 
 # Markup libs
 PRODUCT_COPY_FILES += \
-    vendor/havoc/prebuilt/common/lib/libsketchology_native.so:system/product/lib/libsketchology_native.so \
-    vendor/havoc/prebuilt/common/lib64/libsketchology_native.so:system/product/lib64/libsketchology_native.so
+    vendor/zenx/prebuilt/common/lib/libsketchology_native.so:system/product/lib/libsketchology_native.so \
+    vendor/zenx/prebuilt/common/lib64/libsketchology_native.so:system/product/lib64/libsketchology_native.so
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
@@ -166,8 +166,15 @@ PRODUCT_PACKAGES += \
     AccentColorFlatPinkOverlay \
     AccentColorCyanOverlay \
     AccentColorBlueGrayOverlay \
-    AccentColorMintOverlay
-
+    AccentColorMintOverlay \
+    AccentColorBlueOverlay \
+    AccentColorBurningRedOverlay \
+    AccentColorDeepOrangeOverlay \
+    AccentColorLightBlueOverlay \
+    AccentColorOneplusRedOverlay \
+    AccentColorOrangeOverlay \
+    AccentColorPixelBlueOverlay
+    
 # Extra tools in ZenX
 PRODUCT_PACKAGES += \
     7z \
