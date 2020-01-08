@@ -266,6 +266,11 @@ include vendor/zenx/config/bootanimation.mk
 # Enable ccache
 USE_CCACHE := true
 
+# Allows registering device to Google easier for gapps
+# Integrates package for easier Google Pay fixing
+PRODUCT_PACKAGES += \
+    sqlite3
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/zenx/config/partner_gms.mk
 -include vendor/zenx/config/version.mk
