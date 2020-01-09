@@ -160,27 +160,27 @@ PRODUCT_PACKAGES += \
     NexusLauncherReleaseOverlay
 
 # Accents
-PRODUCT_PACKAGES += \
-    AccentColorYellowOverlay \
-    AccentColorVioletOverlay \
-    AccentColorTealOverlay \
-    AccentColorRedOverlay \
-    AccentColorQGreenOverlay \
-    AccentColorPinkOverlay \
-    AccentColorLightPurpleOverlay \
-    AccentColorIndigoOverlay \
-    AccentColorFlatPinkOverlay \
-    AccentColorCyanOverlay \
-    AccentColorBlueGrayOverlay \
-    AccentColorMintOverlay \
-    AccentColorBlueOverlay \
-    AccentColorBurningRedOverlay \
-    AccentColorDeepOrangeOverlay \
-    AccentColorLightBlueOverlay \
-    AccentColorOneplusRedOverlay \
-    AccentColorOrangeOverlay \
-    AccentColorPixelBlueOverlay
-    
+# PRODUCT_PACKAGES += \
+#     AccentColorYellowOverlay \
+#     AccentColorVioletOverlay \
+#     AccentColorTealOverlay \
+#     AccentColorRedOverlay \
+#     AccentColorQGreenOverlay \
+#     AccentColorPinkOverlay \
+#     AccentColorLightPurpleOverlay \
+#     AccentColorIndigoOverlay \
+#     AccentColorFlatPinkOverlay \
+#     AccentColorCyanOverlay \
+#     AccentColorBlueGrayOverlay \
+#     AccentColorMintOverlay \
+#     AccentColorBlueOverlay \
+#     AccentColorBurningRedOverlay \
+#     AccentColorDeepOrangeOverlay \
+#     AccentColorLightBlueOverlay \
+#     AccentColorOneplusRedOverlay \
+#     AccentColorOrangeOverlay \
+#     AccentColorPixelBlueOverlay
+
 # Extra tools in ZenX
 PRODUCT_PACKAGES += \
     7z \
