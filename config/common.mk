@@ -167,7 +167,11 @@ PRODUCT_PACKAGES += \
 #     AccentColorOrangeOverlay \
 #     AccentColorPixelBlueOverlay
 
-# Extra tools in ZenX
+# Primary colors
+PRODUCT_PACKAGES += \
+    PrimaryColorOceanOverlay
+
+# Offline charger
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
