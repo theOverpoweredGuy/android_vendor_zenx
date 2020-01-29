@@ -95,6 +95,10 @@ PRODUCT_COPY_FILES += \
 # Include Google fonts
 include vendor/zenx/config/fonts.mk
 
+# Gestures
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
 # Markup libs
 PRODUCT_COPY_FILES += \
     vendor/zenx/prebuilt/common/lib/libsketchology_native.so:system/product/lib/libsketchology_native.so \
