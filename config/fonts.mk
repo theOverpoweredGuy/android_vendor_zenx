@@ -13,3 +13,46 @@ PRODUCT_COPY_FILES += \
     vendor/zenx/prebuilt/common/fonts/FiraSans-Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-Medium.ttf \
     vendor/zenx/prebuilt/common/fonts/FiraSans-MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-MediumItalic.ttf \
     vendor/zenx/prebuilt/common/fonts/FiraSans-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/BigNoodleTilting-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/BigNoodleTilting-Italic.ttf \
+    vendor/zenx/prebuilt/common/fonts/BigNoodleTilting-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/BigNoodleTilting-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/din1451alt.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/din1451alt.ttf \
+    vendor/zenx/prebuilt/common/fonts/Hanken-Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Hanken-Light.ttf \
+    vendor/zenx/prebuilt/common/fonts/ReemKufi-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ReemKufi-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/ComicNeue-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ComicNeue-Bold.ttf \
+    vendor/zenx/prebuilt/common/fonts/ComicNeue-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ComicNeue-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Exo2-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Exo2-SemiBold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exo2-SemiBold.ttf \
+    vendor/zenx/prebuilt/common/fonts/Finlandica-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Finlandica-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Goodlight.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Goodlight.ttf \
+    vendor/zenx/prebuilt/common/fonts/Gravity-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Gravity-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Inter-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Inter-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-MediumItalic.ttf \
+    vendor/zenx/prebuilt/common/fonts/LeagueMono-RegularNarrow.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LeagueMono-RegularNarrow.ttf \
+    vendor/zenx/prebuilt/common/fonts/LeagueMono-MediumNarrow.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LeagueMono-MediumNarrow.ttf \
+    vendor/zenx/prebuilt/common/fonts/LeagueMono-BoldNarrow.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LeagueMono-BoldNarrow.ttf \
+    vendor/zenx/prebuilt/common/fonts/LeagueMono-SemiBoldNarrow.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LeagueMono-SemiBoldNarrow.ttf \
+    vendor/zenx/prebuilt/common/fonts/LeonSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LeonSans-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/mescla_regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/mescla_regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/OdibeeSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OdibeeSans-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Panamericana-Display.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Panamericana-Display.ttf \
+    vendor/zenx/prebuilt/common/fonts/PTSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/PTSans-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/PTMono-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/PTMono-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/routed-gothic-narrow.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/routed-gothic-narrow.ttf \
+    vendor/zenx/prebuilt/common/fonts/routed-gothic-narrow-half-italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/routed-gothic-narrow-half-italic.ttf \
+    vendor/zenx/prebuilt/common/fonts/SofiaSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSans-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/SofiaSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSans-Medium.ttf \
+    vendor/zenx/prebuilt/common/fonts/SofiaSansSemiCond-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSansSemiCond-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/SofiaSansSemiCond-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSansSemiCond-Medium.ttf \
+    vendor/zenx/prebuilt/common/fonts/Aclonica.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aclonica.ttf \
+    vendor/zenx/prebuilt/common/fonts/Amarante.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Amarante.ttf \
+    vendor/zenx/prebuilt/common/fonts/Bariol-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Bariol-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Coolstory-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Coolstory-Regular.tff \
+    vendor/zenx/prebuilt/common/fonts/LGSmartGothic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/LGSmartGothic.tff \
+    vendor/zenx/prebuilt/common/fonts/Rosemary-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rosemary-Regular.tff \
+    vendor/zenx/prebuilt/common/fonts/Rubik-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-Bold.tff \
+    vendor/zenx/prebuilt/common/fonts/Rubik-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-BoldItalic.tff \
+    vendor/zenx/prebuilt/common/fonts/Rubik-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-Italic.tff \
+    vendor/zenx/prebuilt/common/fonts/Rubik-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-Medium.tff \
+    vendor/zenx/prebuilt/common/fonts/Rubik-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-MediumItalic.tff \
+    vendor/zenx/prebuilt/common/fonts/Rubik-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Rubik-Regular.tff \
+    vendor/zenx/prebuilt/common/fonts/SonySketch.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SonySketch.tff \
