@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/zenx/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/zenx/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/zenx/prebuilt/common/bin/50-zenx.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-zenx.sh \
-    vendor/zenx/prebuilt/common/bin/blacklist:$(TARGET_COPY_OUT_SYSTEM)/addon.d/blacklist
 
 ifneq ($(AB_OTA_PARTITIONS),)
 PRODUCT_COPY_FILES += \
