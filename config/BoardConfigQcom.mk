@@ -1,4 +1,4 @@
-include vendor/havoc/config/BoardConfigQcomDefs.mk
+include vendor/zenx/config/BoardConfigQcomDefs.mk
 
 BOARD_USES_ADRENO := true
 
