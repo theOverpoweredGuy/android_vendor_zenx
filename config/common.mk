@@ -264,9 +264,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/zenx/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/zenx/overlay/common
 
-# Bootanimation
-include vendor/zenx/config/bootanimation.mk
-
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
