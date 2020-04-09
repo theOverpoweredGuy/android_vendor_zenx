@@ -13,7 +13,7 @@ endif
 TARGET_PRODUCT_SHORT := $(subst zenx_,,$(ZENX_BUILD_TYPE))
 
 # Set all versions
-ZENX_VERSION = 3.3
+ZENX_VERSION = 3.4
 ZENX_BUILD_DATE := $(shell date -u +%d-%m-%Y)
 ZENX_FINGERPRINT := ZenX-OS/v$(ZENX_VERSION)/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(shell date -u +%Y%m%d)/$(shell date -u +%H%M)
 
