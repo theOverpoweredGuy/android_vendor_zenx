@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PrimaryColorCharcoalOverlay \
     PrimaryColorFlameOverlay \
+    PrimaryColorGrayOverlay \
     PrimaryColorNatureOverlay \
     PrimaryColorOceanOverlay
 
