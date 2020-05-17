@@ -82,7 +82,8 @@ PRODUCT_COPY_FILES += \
 
 # This is ZenX!
 PRODUCT_COPY_FILES += \
-    vendor/zenx/config/permissions/privapp-permissions-zenx.xml:system/etc/permissions/privapp-permissions-zenx.xml
+    vendor/zenx/config/permissions/privapp-permissions-zenx-system.xml:system/etc/permissions/privapp-permissions-zenx.xml \
+    vendor/zenx/config/permissions/privapp-permissions-zenx-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-zenx.xml \
 
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
