@@ -286,9 +286,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
 endif
 
-# Enable ccache
-USE_CCACHE := true
-
 # Allows registering device to Google easier for gapps
 # Integrates package for easier Google Pay fixing
 PRODUCT_PACKAGES += \
