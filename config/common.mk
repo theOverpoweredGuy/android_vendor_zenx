@@ -141,35 +141,35 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     OmniStyle \
     PixelThemesStub2019 \
-    SoundPickerPrebuilt \
+    SoundPickerPrebuilt 
 
 # Overlays
 PRODUCT_PACKAGES += \
     NexusLauncherReleaseOverlay
 
 # Accents
-# PRODUCT_PACKAGES += \
-#     AccentColorYellowOverlay \
-#     AccentColorVioletOverlay \
-#     AccentColorTealOverlay \
-#     AccentColorRedOverlay \
-#     AccentColorQGreenOverlay \
-#     AccentColorPinkOverlay \
-#     AccentColorLightPurpleOverlay \
-#     AccentColorIndigoOverlay \
-#     AccentColorFlatPinkOverlay \
-#     AccentColorCyanOverlay \
-#     AccentColorBlueGrayOverlay \
-#     AccentColorMintOverlay \
-#     AccentColorBlueOverlay \
-#     AccentColorBurningRedOverlay \
-#     AccentColorDeepOrangeOverlay \
-#     AccentColorLightBlueOverlay \
-#     AccentColorOneplusRedOverlay \
-#     AccentColorOrangeOverlay \
-#     AccentColorPixelBlueOverlay
-
-# Primary colors
+PRODUCT_PACKAGES += \
+    AccentColorYellowOverlay \
+    AccentColorVioletOverlay \
+    AccentColorTealOverlay \
+    AccentColorRedOverlay \
+    AccentColorQGreenOverlay \
+    AccentColorPinkOverlay \
+    AccentColorLightPurpleOverlay \
+    AccentColorIndigoOverlay \
+    AccentColorFlatPinkOverlay \
+    AccentColorCyanOverlay \
+    AccentColorBlueGrayOverlay \
+    AccentColorMintOverlay \
+    AccentColorBlueOverlay \
+    AccentColorBurningRedOverlay \
+    AccentColorDeepOrangeOverlay \
+    AccentColorLightBlueOverlay \
+    AccentColorOneplusRedOverlay \
+    AccentColorOrangeOverlay \
+    AccentColorPixelBlueOverlay
+    
+# Extra tools in ZenX
 PRODUCT_PACKAGES += \
     PrimaryColorCharcoalOverlay \
     PrimaryColorFlameOverlay \
