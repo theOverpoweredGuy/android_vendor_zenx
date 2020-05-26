@@ -274,6 +274,12 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/zenx/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/zenx/overlay/common
 
+# Build Update app only if Official
+ifeq ($(ZENX_BUILD_TYPE), Official)
+PRODUCT_PACKAGES += \
+    OpenDelta
+endif
+
 # Face Unlock
 ifeq ($(ZENX_BUILD_TYPE), Official)
 TARGET_FACE_UNLOCK_SUPPORTED := true
