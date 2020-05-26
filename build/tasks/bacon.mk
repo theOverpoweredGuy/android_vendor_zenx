@@ -22,4 +22,5 @@ ZENX_TARGET_PACKAGE := $(PRODUCT_OUT)/$(ZENX_BUILD_VERSION).zip
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(ZENX_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(ZENX_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(ZENX_TARGET_PACKAGE).md5sum
+	$(hide) ./vendor/zenx/tools/generate_ota_info.sh $(ZENX_TARGET_PACKAGE)
 	@echo "Package Complete: $(ZENX_TARGET_PACKAGE)" >&2
