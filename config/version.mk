@@ -18,7 +18,7 @@ ZENX_BUILD_DATE := $(shell date -u +%d-%m-%Y)
 ZENX_FINGERPRINT := ZenX-OS/v$(ZENX_VERSION)/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(shell date -u +%Y%m%d)/$(shell date -u +%H%M)
 
 ifeq ($(WITH_GAPPS),true)
-    ZENX_BUILD_VERSION := ZenX-OS-v$(ZENX_VERSION)-$(shell date -u +%Y%m%d)-$(ZENX_BUILD)-$(ZENX_BUILD_TYPE)-GApps
+    ZENX_BUILD_VERSION := ZenX-OS-v$(ZENX_VERSION)-$(ZENX_BUILD_TYPE)-$(ZENX_BUILD)-$(shell date -u +%Y%m%d)-GApps
 else
-    ZENX_BUILD_VERSION := ZenX-OS-v$(ZENX_VERSION)-$(shell date -u +%Y%m%d)-$(ZENX_BUILD)-$(ZENX_BUILD_TYPE)
+    ZENX_BUILD_VERSION := ZenX-OS-v$(ZENX_VERSION)-$(ZENX_BUILD_TYPE)-$(ZENX_BUILD)-$(shell date -u +%Y%m%d)
 endif
