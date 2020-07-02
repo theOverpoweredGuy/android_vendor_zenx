@@ -143,6 +143,9 @@ PRODUCT_PACKAGES += \
     PixelThemesStub2019 \
     SoundPickerPrebuilt 
 
+# Include ZenX Switch Styles
+include vendor/zenx/Switch/switch.mk
+
 # Overlays
 PRODUCT_PACKAGES += \
     NexusLauncherReleaseOverlay
