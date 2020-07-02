@@ -1,7 +1,7 @@
 # Switch themes
 PRODUCT_PACKAGES += \
     SwitchTelegram \
-    SwitchOnePlus \
+    SwitchMD2 \
     SwitchStock \
     Contained \
     Retro \

@@ -16,22 +16,20 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
   <item android:id="@*android:id/off" android:state_checked="false">
     <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-      <item android:gravity="center">
+      <item android:bottom="3dp" android:gravity="center" android:left="3dp" android:right="3dp" android:top="3dp">
         <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
           <solid android:color="?android:colorBackground"/>
-          <stroke android:width="2dp" android:color="@*android:color/switch_track_material"/>
-          <size android:width="18dp" android:height="18dp"/>
+          <size android:width="16dp" android:height="16dp"/>
         </shape>
       </item>
     </layer-list>
   </item>
   <item android:id="@*android:id/on" android:state_checked="true">
     <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-      <item android:gravity="center">
+      <item android:bottom="3dp" android:gravity="center" android:left="3dp" android:right="3dp" android:top="3dp">
         <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-          <solid android:color="@*android:color/accent_device_default"/>
-          <stroke android:width="2dp" android:color="@*android:color/accent_device_default"/>
-          <size android:width="18dp" android:height="18dp"/>
+          <solid android:color="?android:colorBackground"/>
+          <size android:width="16dp" android:height="16dp"/>
         </shape>
       </item>
     </layer-list>

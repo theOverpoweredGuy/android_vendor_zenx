@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The Android Open Source Project
+<!-- 
+     Copyright (C) 2018 Havoc-OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,25 +14,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true">
         <shape android:visible="true" android:shape="rectangle" android:useLevel="false">
-        <gradient 
-            android:startColor="@*android:color/accent_device_default"
-            android:endColor="@*android:color/accent_device_default"
-            android:angle="45"/>
+            <solid android:color="@*android:color/transparent" />
             <corners android:radius="25dp" />
-            <size android:height="21dp" android:width="25dp" />
+            <size android:height="18dp" android:width="25dp" />
+            <stroke android:width="2dp" android:color="@*android:color/switch_track_material" />
         </shape>
     </item>
     <item android:state_checked="false">
-        <shape android:visible="true" android:shape="rectangle" android:useLevel="false"
-            android:tint="@*android:color/switch_track_material">
-            <solid android:color="@*android:color/white_disabled_material" />
+        <shape android:visible="true" android:shape="rectangle" android:useLevel="false">
+            <solid android:color="@*android:color/transparent" />
             <corners android:radius="25dp" />
-            <size android:height="21dp" android:width="25dp" />
+            <size android:height="18dp" android:width="25dp" />
+            <stroke android:width="2dp" android:color="@*android:color/switch_track_material" />
         </shape>
     </item>
 </selector>
-

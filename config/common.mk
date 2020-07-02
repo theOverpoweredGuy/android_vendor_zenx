@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt 
 
 # Include ZenX Switch Styles
-include vendor/zenx/Switch/switch.mk
+include vendor/zenx/themes/Switch/switch.mk
 
 # Overlays
 PRODUCT_PACKAGES += \
