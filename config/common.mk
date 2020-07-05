@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     OmniStyle \
     PixelThemesStub2019 \
-    SoundPickerPrebuilt 
+    SoundPickerPrebuilt \
+    StitchImage
 
 # Include ZenX Switch Styles
 include vendor/zenx/themes/Switch/switch.mk
