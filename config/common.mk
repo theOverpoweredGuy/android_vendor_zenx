@@ -137,18 +137,33 @@ PRODUCT_PACKAGES += \
     Browser \
     CustomDoze \
     GalleryGoPrebuilt \
-    NexusLauncherRelease \
     OmniStyle \
+    NexusLauncherRelease \
     PixelThemesStub2019 \
     SoundPickerPrebuilt \
     StitchImage
 
+# Lawnchair
+ifeq ($(LAWNCHAIR_OPTOUT),)
+PRODUCT_PACKAGES += \
+    Lawnchair \
+    Lawnfeed
+endif
+
+# Lawnchair
+ifeq ($(LAWNCHAIR_OPTOUT),)
+PRODUCT_COPY_FILES += \
+    vendor/zenx/config/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/zenx/config/permissions/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+endif
+
+# Lawnchair
+ifeq ($(LAWNCHAIR_OPTOUT),)
+    PRODUCT_PACKAGE_OVERLAYS += vendor/overlay/lawnchair
+endif
+
 # Include ZenX Switch Styles
 include vendor/zenx/themes/Switch/switch.mk
-
-# Overlays
-PRODUCT_PACKAGES += \
-    NexusLauncherReleaseOverlay
 
 # Accents
 PRODUCT_PACKAGES += \
