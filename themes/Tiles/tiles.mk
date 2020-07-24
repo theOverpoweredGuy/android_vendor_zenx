@@ -17,4 +17,5 @@ PRODUCT_PACKAGES += \
     QSTileDottedCircle \
     QSTileNinja \
     QSTileTriangles \
-    QSTileNeonLight
+    QSTileNeonLight \
+    QSTileJustIcon
