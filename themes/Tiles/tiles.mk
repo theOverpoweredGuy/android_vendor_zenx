@@ -18,4 +18,5 @@ PRODUCT_PACKAGES += \
     QSTileNinja \
     QSTileTriangles \
     QSTileNeonLight \
-    QSTileJustIcon
+    QSTileJustIcon \
+    QSTileBottomTriangle \
