@@ -52,7 +52,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 endif
 endif
 
-# Backup Services whitelist
+# system mount
+PRODUCT_COPY_FILES += \
+    vendor/zenx/build/tools/system-mount.sh:install/bin/system-mount.sh
+
+# priv-app whitelist
 PRODUCT_COPY_FILES += \
     vendor/zenx/config/permissions/backup.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/backup.xml
 
