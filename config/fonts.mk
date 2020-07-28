@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/zenx/prebuilt/common/fonts/Surfer.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Surfer.ttf \
     vendor/zenx/prebuilt/common/fonts/vcr_osd_mono.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/ThemeableFont-Regular.ttf \
     vendor/zenx/prebuilt/common/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml \
-        vendor/zenx/prebuilt/common/fonts/BigNoodleTilting-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/BigNoodleTilting-Italic.ttf \
+    vendor/zenx/prebuilt/common/fonts/BigNoodleTilting-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/BigNoodleTilting-Italic.ttf \
     vendor/zenx/prebuilt/common/fonts/BigNoodleTilting-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/BigNoodleTilting-Regular.ttf \
     vendor/zenx/prebuilt/common/fonts/din1451alt.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/din1451alt.ttf \
     vendor/zenx/prebuilt/common/fonts/Hanken-Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Hanken-Light.ttf \
@@ -125,4 +125,17 @@ PRODUCT_COPY_FILES += \
     vendor/zenx/prebuilt/common/fonts/GoogleSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-MediumItalic.ttf \
     vendor/zenx/prebuilt/common/fonts/GoogleSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Medium.ttf \
     vendor/zenx/prebuilt/common/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
-    vendor/zenx/prebuilt/common/fonts/Linotte.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Linotte.ttf
+    vendor/zenx/prebuilt/common/fonts/Linotte.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Linotte.ttf \
+    vendor/zenx/prebuilt/common/fonts/Cocon.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Cocon.ttf \
+    vendor/zenx/prebuilt/common/fonts/Comfortaa.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Comfortaa.ttf \
+    vendor/zenx/prebuilt/common/fonts/Exotwo.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Exotwo.ttf \
+    vendor/zenx/prebuilt/common/fonts/Fifa_2018.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Fifa_2018.ttf \
+    vendor/zenx/prebuilt/common/fonts/GrandHotel.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GrandHotel.ttf \
+    vendor/zenx/prebuilt/common/fonts/Nokia_Pure.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Nokia_Pure.ttf \
+    vendor/zenx/prebuilt/common/fonts/Nunito-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Nunito-Bold.ttf \
+    vendor/zenx/prebuilt/common/fonts/Nunito-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Nunito-Regular.ttf \
+    vendor/zenx/prebuilt/common/fonts/Quando.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Quando.ttf \
+    vendor/zenx/prebuilt/common/fonts/Redressed.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Redressed.ttf \
+    vendor/zenx/prebuilt/common/fonts/ReemKufi.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/ReemKufi.ttf \
+    vendor/zenx/prebuilt/common/fonts/Storopia.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Storopia.ttf \
+    vendor/zenx/prebuilt/common/fonts/Ubuntu.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu.ttf
