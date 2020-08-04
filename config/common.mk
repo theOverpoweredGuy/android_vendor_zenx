@@ -290,6 +290,12 @@ PRODUCT_PACKAGES += \
     OpenDelta
 endif
 
+# OP Launcher
+ifeq ($(USE_OP_LAUNCHER),true)
+PRODUCT_PACKAGES += \
+   include vendor/oplauncher/OPLauncher2.mk
+endif
+
 # Face Unlock
 ifeq ($(ZENX_BUILD_TYPE), Official)
 TARGET_FACE_UNLOCK_SUPPORTED := true
