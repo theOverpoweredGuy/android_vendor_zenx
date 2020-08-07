@@ -153,6 +153,9 @@ include vendor/zenx/themes/Switch/switch.mk
 # Include ZenX Tiles Styles
 include vendor/zenx/themes/Tiles/tiles.mk
 
+# Include ZenX UI Styles
+include vendor/zenx/themes/UI/ui.mk
+
 # Overlays
 PRODUCT_PACKAGES += \
     NexusLauncherReleaseOverlay
