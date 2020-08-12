@@ -321,6 +321,8 @@ ifeq ($(WITH_GAPPS),true)
 include vendor/gapps/config.mk
 endif
 
+-include packages/apps/Plugins/plugins.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/zenx/config/partner_gms.mk
 -include vendor/zenx/config/version.mk
