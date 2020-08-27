@@ -156,6 +156,9 @@ include vendor/zenx/themes/Tiles/tiles.mk
 # Include ZenX UI Styles
 include vendor/zenx/themes/UI/ui.mk
 
+# Include ZenX Brightness Slider Styles
+include vendor/zenx/themes/BrightnessSlider/slider.mk
+
 # Overlays
 PRODUCT_PACKAGES += \
     NexusLauncherReleaseOverlay
