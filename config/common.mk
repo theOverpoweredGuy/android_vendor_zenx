@@ -106,8 +106,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Markup libs
 PRODUCT_COPY_FILES += \
-    vendor/zenx/prebuilt/common/lib/libsketchology_native.so:system/product/lib/libsketchology_native.so \
-    vendor/zenx/prebuilt/common/lib64/libsketchology_native.so:system/product/lib64/libsketchology_native.so
+    vendor/zenx/prebuilt/common/lib/libsketchology_native.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsketchology_native.so \
+    vendor/zenx/prebuilt/common/lib64/libsketchology_native.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsketchology_native.so
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
