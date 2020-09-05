@@ -245,6 +245,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
 
+# Lawnchair
+ifneq ($(USE_PIXEL_LAUNCHER),true)
+   include vendor/lawnchair/lawnchair.mk
+endif
+
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
