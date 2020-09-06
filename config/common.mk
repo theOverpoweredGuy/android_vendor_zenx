@@ -246,7 +246,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
 
 # Lawnchair
-ifneq ($(USE_PIXEL_LAUNCHER),true)
+ifneq ($(DEFAULT_LAUNCHER),)
    include vendor/lawnchair/lawnchair.mk
 endif
 
@@ -283,8 +283,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # OP Launcher
-ifeq ($(USE_OP_LAUNCHER),true)
-PRODUCT_PACKAGES += \
+ifeq ($(DEFAULT_LAUNCHER),oplauncher)
    include vendor/oplauncher/OPLauncher2.mk
 endif
 
